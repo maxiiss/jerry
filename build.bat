@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --icon "src/cheese_icon.ico" --name "jerry" --add-data "src/cheese_icon.ico;."  "src/main.py"
